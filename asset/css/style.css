@@ -8,7 +8,7 @@
   color: white;
 }
 #header {
-  z-index: 1;
+  z-index: 999999;
   display: flex;
   align-items: center;
   position: fixed;
@@ -21,7 +21,6 @@
   border: 1px solid black;
   background-color: black;
   border-radius: 30px;
-
   color: #fff;
 }
 .date {
@@ -94,7 +93,7 @@
   margin-bottom: 3%;
 }
 .content1 .logo svg {
-  width: 200px;
+  width: 150px;
 }
 
 .content1 .txt {
@@ -102,10 +101,12 @@
   font-family: Michroma;
 }
 .txt .txt1 {
-  font-size: 60px;
+  font-weight: 100;
+  font-size: 40px;
 }
 .txt .txt2 {
-  font-size: 40px;
+  font-weight: 100;
+  font-size: 25px;
 }
 
 #main2 {
@@ -119,55 +120,66 @@
   width: 50%;
 }
 #main2 .title {
-  font-size: 50px;
+  font-size: 3vw;
+  font-weight: 100;
   color: white;
   font-family: Michroma;
   margin-top: 15%;
   margin-left: 15%;
+}
+
+#main2 .contents {
+  font-size: 15px;
+  font-weight: 100;
+  color: white;
+  font-family: "Michroma;";
+  text-align: right;
+  margin-top: 50px;
+  margin-right: 100px;
+  word-break: break-all;
 }
 #main2 .photo {
   display: flex;
   flex-wrap: wrap;
   width: 50%;
 }
-
-#main2 .img1 {
+#main2 .photo .img1 {
   position: absolute;
-  top: 20%;
+  top: 10%;
+  left: 50%;
   background-image: url(/asset/img/main2_img1.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  width: 600px;
-  height: 400px;
+  width: 300px;
+  height: 300px;
+  border-radius: 300px;
 }
-
-#main2 .img2 {
+#main2 .photo .img2 {
   position: absolute;
-  top: 50%;
-  left: 52%;
+  top: 53%;
+  left: 48%;
   background-image: url(/asset/img/main2_img2.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  width: 300px;
+  width: 200px;
   height: 200px;
-  transform: rotate(-10deg);
+  border-radius: 300px;
 }
-#main2 .img3 {
+#main2 .photo .img3 {
   position: absolute;
-  top: 48%;
-  left: 66%;
-
+  top: 40%;
+  left: 68%;
   background-image: url(/asset/img/main2_img3.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  width: 320px;
-  height: 250px;
-  transform: rotate(20deg);
+  width: 350px;
+  height: 350px;
+  border-radius: 350px;
 }
-#main3 {
+#main2 .photo .img2 #main2 .photo .img3 #main3 {
   display: block;
   background-color: black;
   width: 100%;
@@ -175,280 +187,100 @@
   position: relative;
 }
 
-#main3 .row {
-  z-index: 1;
-  display: flex;
+#main3 {
   position: relative;
   width: 100%;
-  height: 1%;
-}
-
-#main3 .wrap {
-  display: flex;
-  position: relative;
-}
-#main3 .wrap .photo {
-  width: 50%;
   height: 100vh;
+  background-color: black;
 }
-#main3 .wrap .photo .img1 {
-  position: absolute;
-  top: 30%;
-  left: 8%;
+#main3 .photo {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+}
+#main3 .photo > div {
+  margin-top: 7%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 220px;
+  height: 350px;
+  margin-left: 10px;
+}
+#main3 .photo > div:nth-child(1) {
   background-image: url(/asset/img/main3_img1.jpg);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  width: 18%;
-  height: 50%;
-  transform: rotate(-20deg);
 }
-#main3 .wrap .photo .img2 {
-  position: absolute;
-  top: 15%;
-  left: 20%;
+#main3 .photo > div:nth-child(2) {
   background-image: url(/asset/img/main3_img2.jpg);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  width: 20%;
-  height: 60%;
-  transform: rotate(-5deg);
 }
-#main3 .wrap .photo .img3 {
-  position: absolute;
-  top: 50%;
-  left: 35%;
+#main3 .photo > div:nth-child(3) {
   background-image: url(/asset/img/main3_img3.jpg);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  width: 10%;
-  height: 30%;
-  transform: rotate(10deg);
 }
-#main3 .wrap .txt {
-  height: 100%;
-  width: 50%;
-  display: block;
+#main3 .photo > div:nth-child(4) {
+  background-image: url(/asset/img/main3_img4.png);
+}
+#main3 .photo > div:nth-child(5) {
+  background-image: url(/asset/img/main3_img5.png);
+}
+#main3 .photo > div:nth-child(6) {
+  background-image: url(/asset/img/main3_img6.png);
+}
+#main3 .photo > div:nth-child(7) {
+  background-image: url(/asset/img/main3_img7.png);
 }
 
-#main3 .introduce {
-  z-index: 1;
-  height: 90%;
-  border-left: 1px solid white;
-}
 #main3 .title {
+  position: relative;
+  top: -30%;
+  right: 10%;
   font-family: Michroma;
-  font-size: 50px;
+  font-size: 3vw;
   color: #fff;
   text-align: right;
-  margin-top: 10%;
-  margin-right: 15%;
+  font-weight: 100;
 }
-#main3 .content {
-  font-family: Michroma;
-  font-size: 30px;
-  color: #fff;
-  text-align: right;
-  margin-right: 15%;
-}
-
 #main4 {
   width: 100%;
-  height: 80vh;
-  position: relative;
-  display: block;
-  background-color: black;
-}
-#main4 .container {
-  padding: 7rem 0 7rem;
-}
-#main4 .tape1 {
-  width: 100%;
-  height: 50%;
-  background-color: #fec260;
-  overflow: hidden;
-  transform: rotate(-5deg);
-}
-
-#main4 .tape1 .keyword1 {
-  display: flex;
-  font-size: 50px;
-  font-family: Michroma;
-  list-style: none;
-  color: #fff;
-  padding: 30px 0 30px;
-}
-#main4 .tape2 {
-  width: 100%;
-  height: 50%;
-  background-color: #abd9ff;
-  overflow: hidden;
-  transform: rotate(2deg);
-}
-
-#main4 .tape2 .keyword2 {
-  display: flex;
-  font-family: Michroma;
-  font-size: 50px;
-  list-style: none;
-  color: #fff;
-  padding: 30px 0 30px;
-}
-
-.keyword1 li {
-  padding: 0 32px;
-}
-.keyword2 li {
-  padding: 0 32px;
-}
-#main5 {
-  display: flex;
-  background-color: black;
-  width: 100%;
   height: 100vh;
+}
+#main4 .wrap {
   position: relative;
 }
-#main5 .container {
-  width: 0;
-  height: 0;
-}
-#main5 .webstandard {
-  width: 50%;
-}
-#main5 .container .webstandard .img {
-  left: 15%;
-  position: absolute;
-  background-image: url(/asset/img/main5_webstandard_img1.jpg);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  width: 30%;
-  height: 60%;
-  transform: rotate(-5deg);
-}
-#main5 .container .webstandard .img2 {
-  top: 40%;
-  left: 37%;
-  position: absolute;
-  background-image: url(/asset/img/main5_webstandard_img2.jpg);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  width: 10%;
-  height: 20%;
-  transform: rotate(10deg);
-}
-#main5 .container .webstandard .txt {
-  position: absolute;
-  border: 1px solid #de554e;
-  background-color: #de554e;
-  border-radius: 100px;
-  width: 250px;
-  height: 100px;
-  top: 30%;
-  left: 30%;
-  z-index: 1;
-  transform: rotate(-8deg);
-}
-#main5 .container .webstandard .txt h2 {
-  text-align: center;
-  line-height: 100px;
-  color: white;
-  font-size: 20px;
-  font-family: Michroma;
-}
-#main5 .megabox {
-  width: 50%;
-}
-#main5 .megabox .img {
-  left: 55%;
-  position: absolute;
-  background-image: url(/asset/img/main5_megabox_img1.jpg);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  width: 25%;
-  height: 50%;
-  transform: rotate(5deg);
-}
-#main5 .megabox .img2 {
-  top: 15%;
-  left: 73%;
-  position: absolute;
-  background-image: url(/asset/img/main5_megabox_img2.jpg);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  width: 13%;
-  height: 40%;
-  transform: rotate(-2deg);
-}
-#main5 .container .megabox .txt {
-  position: absolute;
-  border: 1px solid #485a4f;
-  background-color: #485a4f;
-  border-radius: 10px 10px 10px 100px;
-  width: 200px;
-  height: 200px;
-  top: 30%;
-  left: 60%;
-  z-index: 1;
-  transform: rotate(-8deg);
-}
-#main5 .container .megabox .txt h2 {
-  text-align: center;
-  line-height: 100px;
-  color: white;
-  font-size: 20px;
-  font-family: Michroma;
-}
-#main5 .react {
+#main4 .main_img {
+  height: 100vh;
   width: 100%;
-
-  flex-wrap: wrap;
-}
-#main5 .react .img {
-  top: 80%;
-  left: 35%;
-  position: absolute;
-  background-image: url(/asset/img/main5_react_img1.jpg);
+  position: sticky;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  width: 30%;
-  height: 43%;
-  transform: rotate(5deg);
+  background-image: url(/asset/img/main4_img.jpg);
 }
-#main5 .react .img2 {
-  top: 80%;
-  left: 30%;
-  position: absolute;
-  background-image: url(/asset/img/main5_react_img2.jpg);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  width: 10%;
-  height: 20%;
-  transform: rotate(-5deg);
+#main4 .sl {
+  top: 0;
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  z-index: 100;
+  background-color: #192240;
+  display: block;
 }
-
-#main5 .container .react .txt {
-  position: absolute;
-  border: 1px solid #ff9e2c;
-  background-color: #ff9e2c;
-  border-radius: 300px;
-  width: 180px;
-  height: 180px;
-  top: 70%;
-  left: 38%;
-  z-index: 1;
+#main4 .sl .logo svg {
+  width: 100px;
+  margin: 10rem 0 0 10rem;
 }
-#main5 .container .react .txt h2 {
-  text-align: center;
-  line-height: 180px;
-  color: white;
-  font-size: 20px;
+#main4 .sl .txt1 {
+  font-size: 3vw;
   font-family: Michroma;
+  color: #fff;
+  margin-top: 0.1rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  padding-bottom: 3rem;
+  border-bottom: 0.5px solid white;
+}
+#main4 .sl .txt2 {
+  font-family: "GmarketSans";
+  color: #fff;
+  font-weight: 100;
 }
