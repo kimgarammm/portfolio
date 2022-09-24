@@ -13,6 +13,7 @@
     />
   </head>
   <body>
+    <div class="scroll"></div>
     <header id="header">
       <div class="date">
         <img class="smile" src="/asset/img/smile.svg" alt="smile" />
@@ -196,7 +197,7 @@
             <h2 class="content">
               개발을 즐거워하며 계속해서 학습하는, <br />
               트렌드에 빠르게 반응하며, <br />
-              끊임없이 발전하는 <br />
+              끊임없이 발전하는, <br />
               개발자가 되겠습니다.
             </h2>
           </div>
@@ -207,28 +208,52 @@
       <div class="container">
         <div class="tape1">
           <ul class="keyword1">
-            <li>faithful</li>
-            <li>responsibility</li>
-            <li>creative</li>
-            <li>active</li>
-            <li>defiant</li>
+            <li>Faithful</li>
+            <li>Responsibility</li>
+            <li>Creative</li>
+            <li>Active</li>
+            <li>Defiant</li>
           </ul>
         </div>
         <div class="tape2">
           <ul class="keyword2">
-            <li>passion</li>
-            <li>honest</li>
-            <li>developing</li>
-            <li>careful</li>
-            <li>well-rounded</li>
+            <li>Passion</li>
+            <li>Honest</li>
+            <li>Developing</li>
+            <li>Careful</li>
+            <li>Cooperative</li>
           </ul>
         </div>
       </div>
     </section>
 
+    <section id="main5">
+      <div class="container">
+        <div class="webstandard">
+          <div class="txt"><h2>webstandard</h2></div>
+          <div class="img"></div>
+          <div class="img2"></div>
+        </div>
+        <div class="megabox">
+          <div class="txt"><h2>megabox</h2></div>
+          <div class="img"></div>
+          <div class="img2"></div>
+        </div>
+        <div class="react">
+          <div class="txt"><h2>react</h2></div>
+          <div class="img"></div>
+          <div class="img2"></div>
+        </div>
+      </div>
+    </section>
+    <section id="main6">
+      <div class="txt"></div>
+      <div class="box"></div>
+    </section>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js"></script>
     <script>
-      var s = skrollr.init({
+      let s = skrollr.init({
         smoothScrolling: true,
       });
 
@@ -261,8 +286,6 @@
 
         Target_apm.innerText = `${AmPm}`;
       }
-      clock();
-      setInterval(clock, 1000); // 1초마다 실행
     </script>
   </body>
 </html>

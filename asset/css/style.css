@@ -2,6 +2,11 @@
   margin: 0;
   padding: 0;
 }
+.scroll {
+  position: fixed;
+  z-index: 99999;
+  color: white;
+}
 #header {
   z-index: 1;
   display: flex;
@@ -251,31 +256,199 @@
 
 #main4 {
   width: 100%;
-  height: 100vh;
+  height: 80vh;
   position: relative;
   display: block;
   background-color: black;
+}
+#main4 .container {
+  padding: 7rem 0 7rem;
 }
 #main4 .tape1 {
   width: 100%;
   height: 50%;
   background-color: #fec260;
   overflow: hidden;
+  transform: rotate(-5deg);
 }
 
 #main4 .tape1 .keyword1 {
   display: flex;
-  font-size: 100px;
+  font-size: 50px;
+  font-family: Michroma;
+  list-style: none;
+  color: #fff;
+  padding: 30px 0 30px;
 }
 #main4 .tape2 {
   width: 100%;
   height: 50%;
   background-color: #abd9ff;
-
-  font-size: 100px;
   overflow: hidden;
+  transform: rotate(2deg);
 }
 
 #main4 .tape2 .keyword2 {
   display: flex;
+  font-family: Michroma;
+  font-size: 50px;
+  list-style: none;
+  color: #fff;
+  padding: 30px 0 30px;
+}
+
+.keyword1 li {
+  padding: 0 32px;
+}
+.keyword2 li {
+  padding: 0 32px;
+}
+#main5 {
+  display: flex;
+  background-color: black;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+#main5 .container {
+  width: 0;
+  height: 0;
+}
+#main5 .webstandard {
+  width: 50%;
+}
+#main5 .container .webstandard .img {
+  left: 15%;
+  position: absolute;
+  background-image: url(/asset/img/main5_webstandard_img1.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 30%;
+  height: 60%;
+  transform: rotate(-5deg);
+}
+#main5 .container .webstandard .img2 {
+  top: 40%;
+  left: 37%;
+  position: absolute;
+  background-image: url(/asset/img/main5_webstandard_img2.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 10%;
+  height: 20%;
+  transform: rotate(10deg);
+}
+#main5 .container .webstandard .txt {
+  position: absolute;
+  border: 1px solid #de554e;
+  background-color: #de554e;
+  border-radius: 100px;
+  width: 250px;
+  height: 100px;
+  top: 30%;
+  left: 30%;
+  z-index: 1;
+  transform: rotate(-8deg);
+}
+#main5 .container .webstandard .txt h2 {
+  text-align: center;
+  line-height: 100px;
+  color: white;
+  font-size: 20px;
+  font-family: Michroma;
+}
+#main5 .megabox {
+  width: 50%;
+}
+#main5 .megabox .img {
+  left: 55%;
+  position: absolute;
+  background-image: url(/asset/img/main5_megabox_img1.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 25%;
+  height: 50%;
+  transform: rotate(5deg);
+}
+#main5 .megabox .img2 {
+  top: 15%;
+  left: 73%;
+  position: absolute;
+  background-image: url(/asset/img/main5_megabox_img2.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 13%;
+  height: 40%;
+  transform: rotate(-2deg);
+}
+#main5 .container .megabox .txt {
+  position: absolute;
+  border: 1px solid #485a4f;
+  background-color: #485a4f;
+  border-radius: 10px 10px 10px 100px;
+  width: 200px;
+  height: 200px;
+  top: 30%;
+  left: 60%;
+  z-index: 1;
+  transform: rotate(-8deg);
+}
+#main5 .container .megabox .txt h2 {
+  text-align: center;
+  line-height: 100px;
+  color: white;
+  font-size: 20px;
+  font-family: Michroma;
+}
+#main5 .react {
+  width: 100%;
+
+  flex-wrap: wrap;
+}
+#main5 .react .img {
+  top: 80%;
+  left: 35%;
+  position: absolute;
+  background-image: url(/asset/img/main5_react_img1.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 30%;
+  height: 43%;
+  transform: rotate(5deg);
+}
+#main5 .react .img2 {
+  top: 80%;
+  left: 30%;
+  position: absolute;
+  background-image: url(/asset/img/main5_react_img2.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 10%;
+  height: 20%;
+  transform: rotate(-5deg);
+}
+
+#main5 .container .react .txt {
+  position: absolute;
+  border: 1px solid #ff9e2c;
+  background-color: #ff9e2c;
+  border-radius: 300px;
+  width: 180px;
+  height: 180px;
+  top: 70%;
+  left: 38%;
+  z-index: 1;
+}
+#main5 .container .react .txt h2 {
+  text-align: center;
+  line-height: 180px;
+  color: white;
+  font-size: 20px;
+  font-family: Michroma;
 }
