@@ -19,9 +19,24 @@
   <body>
     <div class="scroll"></div>
     <header id="header">
-      <div class="date">
-        <img class="smile" src="/asset/img/smile.svg" alt="smile" />
-        <span id="clock">clock</span>
+      <div class="left">
+        <svg
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M19.6585 9.70119L12.6585 3.57619C12.2815 3.24629 11.7185 3.24629 11.3415 3.57619L4.3415 9.70119C4.12448 9.89108 4 10.1654 4 10.4538V19C4 19.5523 4.44772 20 5 20H9C9.55228 20 10 19.5523 10 19V15C10 14.4477 10.4477 14 11 14H13C13.5523 14 14 14.4477 14 15V19C14 19.5523 14.4477 20 15 20H19C19.5523 20 20 19.5523 20 19V10.4538C20 10.1654 19.8755 9.89108 19.6585 9.70119Z"
+            stroke="white"
+            stroke-width="1"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+
+        <span id="today"></span>
       </div>
       <div class="name">KIM GARAM</div>
       <div class="menu-btn">
@@ -34,8 +49,8 @@
         <div class="row">
           <div
             class="logo"
-            data-300="transform: rotate(180deg);"
-            data-300="transform: scale:(0.5);"
+            data-0="transform:scale(1)"
+            data-800="transform:scale(0.1)"
           >
             <svg
               viewBox="0 0 607 560"
@@ -184,21 +199,37 @@
       <div class="txt">
         <h2 class="title">WELCOME <br />MY PORTFOLIO</h2>
         <h2 class="contents">
-          개발을 즐거워하며 계속해서 학습하는 <br />
-          트렌드에 빠르게 반응하며 <br />
-          끊임없이 발전하는 <br />
-          개발자가 되겠습니다.
+          개발을 즐거워하며 계속해서 학습하는 트렌드에 빠르게 반응하며 <br />
+          끊임없이 발전하는 개발자가 되겠습니다. <br />
+          개발을 즐거워하며 계속해서 학습하는 트렌드에 빠르게 반응하며 <br />
+          끊임없이 발전하는 개발자가 되겠습니다.
         </h2>
       </div>
       <div class="photo">
-        <div class="img1"></div>
-        <div class="img2"></div>
-        <div class="img3"></div>
+        <div
+          class="img1"
+          data-0="transform: translateY(30px) scale(0.9) rotate(0deg)"
+          data-800="transform: translateY(120px) scale(0.9) rotate(-120deg)"
+        ></div>
+        <div
+          class="img2"
+          data-0="transform: translateY(500px) scale(0.9) rotate(0deg)"
+          data-900="transform: translateY(380px) scale(0.9) rotate(120deg)"
+        ></div>
+        <div
+          class="img3"
+          data-0="transform: translate(300px, 300px) scale(0.9) rotate(-50deg)"
+          data-900="transform: translate(230px, 230px) scale(0.9) rotate(40deg)"
+        ></div>
       </div>
     </section>
     <!--//main2-->
     <section id="main3">
-      <div class="photo">
+      <div
+        class="photo"
+        data-900="transform: translate(-60px,60px)"
+        data-1500="transform: translate(+10px,-10px)"
+      >
         <div class="img1"></div>
         <div class="img2"></div>
         <div class="img3"></div>
@@ -216,14 +247,14 @@
     <!--//main3-->
 
     <section id="main4">
-      <div class="wrap">
-      <div class="main_img"></div>
       <div class="sl">
         <div class="logo">
           <svg
             viewBox="0 0 607 560"
             fill="white"
             xmlns="http://www.w3.org/2000/svg"
+            data-2330="transform: rotate(0deg) scale(1) "
+            data-2800="transform: rotate(720deg) scale(0.9)"
           >
             <g clip-path="url(#clip0_401_2)">
               <path
@@ -360,20 +391,119 @@
         </div>
         <div class="txt2">
           웹표준 사이트 : 웹 표준을 준수한 사이트 <br />
-          반응형 사이트 : 미디어 쿼리를 이용한 사이트 <br />PHP 사이트 :
-          회원가입 게시판을 이용한 사이트 리액트 사이트 :<br />
-          컴퍼넌트를 이용한 사이트<br />
+          반응형 사이트 : 미디어 쿼리를 이용한 사이트 <br />
+          PHP 사이트 : 회원가입 게시판을 이용한 사이트 <br />
+          리액트 사이트 : 컴퍼넌트를 이용한 사이트<br />
+        </div>
+      </div>
+
+      <div
+        class="webstandard"
+        data-2100=" scale(.81); filter: grayscale(1) brightness(0)"
+        data-2800="scale(1); filter: grayscale(0) brightness(1)"
+        data-2900="scale(1); filter: grayscale(0) brightness(1)"
+        data-3200=" scale(.81); filter: grayscale(1) brightness(0)"
+      >
+        <div class="bg"></div>
+        <div class="wrap">
+          <div class="inner">
+            <div class="site">
+              <h2>WebStandard</h2>
+              <p>
+                위하여서, 트고, 그들은 가슴이 구하기 봄날의 같으며, 목숨이
+                것이다. 그들의 무엇을 두기 밥을 뜨고, 아니다. 이상은 커다란
+                미묘한 청춘을 위하여서. 이는 황금시대의 굳세게 가진 약동하다.
+              </p>
+              <div class="btn">
+                <a href="#" alt="View Site">View Site</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--//main4-->
+    <section id="main5">
+      <div
+        class="Responsive_Web"
+        data-2800=" scale(.81); filter: grayscale(1) brightness(0)"
+        data-2900="scale(1); filter: grayscale(0) brightness(1)"
+        data-3440="scale(1); filter: grayscale(0) brightness(1)"
+        data-3900=" scale(.81); filter: grayscale(1) brightness(0)"
+      >
+        <div class="bg"></div>
+        <div class="wrap">
+          <div class="inner">
+            <div class="site">
+              <h2>Responsive Web</h2>
+              <p>
+                벌레는 된 릴케 멀리 강아지, 나는 있습니다. 가슴속에 위에도 동경과 남은 멀리 까닭입니다. 가난한 하나의 아름다운 이름과, 거외다. 노새, 위에도 이런 하나에 하나에 때 언덕 강아지, 이국 듯합니다.
+              </p>
+              <div class="btn">
+                <a href="#" alt="View Site">View Site</a>
+              </div>
+            </div>
+          </div>
         </div>
       </div></div>
     </section>
-    <!--//main4-->
-
-    <section id="main5"></section>
+    </section>
     <!--//main5-->
-
+    <section id="main6">
+      <div
+        class="PHP_Site"
+        data-3249=" scale(.81); filter: grayscale(1) brightness(0)"
+        data-3622="scale(1); filter: grayscale(0) brightness(1)"
+        data-4154="scale(1); filter: grayscale(0) brightness(1)"
+        data-4600=" scale(.81); filter: grayscale(1) brightness(0)"
+      >
+        <div class="bg"></div>
+        <div class="wrap">
+          <div class="inner">
+            <div class="site">
+              <h2>PHP Site</h2>
+              <p>
+                충분히 희망의 그들의 뿐이다. 하는 청춘에서만 그들의 인생의 웅대한 공자는 이것을 속잎나고, 사막이다. 위하여서 든 기관과 얼마나 이것은 따뜻한 보라. 전인 광야에서 원질이 위하여서.
+              </p>
+              <div class="btn">
+                <a href="#" alt="View Site">View Site</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div></div>
+    </section>
+    </section>
+    <!--//main6 -->
+    <section id="main7">
+      <div
+        class="React_Site"
+        data-4100=" scale(.81); filter: grayscale(1) brightness(0)"
+        data-4300="scale(1); filter: grayscale(0) brightness(1)"
+        data-5300="scale(1); filter: grayscale(0) brightness(1)"
+        data-5500=" scale(.81); filter: grayscale(1) brightness(0)"
+      >
+        <div class="bg"></div>
+        <div class="wrap">
+          <div class="inner">
+            <div class="site">
+              <h2>React Site</h2>
+              <p>
+                가슴속에 남은 불러 다 이름을 까닭입니다. 없이 쉬이 슬퍼하는 그리고 이름과 이름자 아스라히 있습니다. 이런 별 못 나는 위에 책상을 하늘에는 이름과, 거외다. 겨울이 별 말 못 내린 까닭입니다.
+              </p>
+              <div class="btn">
+                <a href="#" alt="View Site">View Site</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div></div>
+    </section>
+    </section>
+    <!--//main7-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js"></script>
     <script>
-      let s = skrollr.init({
+      var s = skrollr.init({
         smoothScrolling: true,
       });
 
@@ -385,27 +515,6 @@
         requestAnimationFrame(scroll);
       }
       scroll();
-    </script>
-    <script>
-      let Target = document.getElementById("clock");
-      let Target_apm = document.getElementById("apm");
-      function clock() {
-        var time = new Date();
-        var hours = time.getHours();
-        var minutes = time.getMinutes();
-        var seconds = time.getSeconds();
-        var AmPm = "AM";
-        if (hours > 12) {
-          var AmPm = "PM";
-          hours %= 12;
-        }
-
-        Target.innerText = `${hours < 10 ? `0${hours}` : hours}:${
-          minutes < 10 ? `0${minutes}` : minutes
-        }:${seconds < 10 ? `0${seconds}` : seconds}`;
-
-        Target_apm.innerText = `${AmPm}`;
-      }
     </script>
   </body>
 </html>
