@@ -1,0 +1,898 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#header {
+  z-index: 9999999999;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 4%;
+  width: 90%;
+  height: 7%;
+  left: 50%;
+  transform: translateX(-50%);
+  justify-content: space-between;
+  border: 1px solid none;
+  background-color: none;
+  border-radius: 30px;
+  color: #fff;
+
+  /* mix-blend-mode: overlay; */
+}
+#header .left {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#header .left svg {
+  margin-right: 10px;
+  margin-left: 10px;
+  width: 1vw;
+}
+#header .scroll {
+  color: white;
+  font-weight: 100;
+  font-style: normal;
+  margin-right: 10px;
+  font-size: 0.8vw;
+}
+#header .left .txt {
+  border-left: 1px solid white;
+}
+#header .left .txt p {
+  margin-left: 10px;
+  font-size: 0.8vw;
+}
+
+#header .menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10%;
+  width: 10%;
+  text-align: right;
+  padding-right: 10px;
+}
+#header .menu .border {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 30px;
+}
+#header .menu p {
+  padding-right: 10px;
+  font-size: 0.7vw;
+  font-weight: 500;
+}
+
+#header .menu .ham {
+  width: 30px;
+  height: 30px;
+  background: none;
+  display: inline-block;
+  position: relative;
+  margin-top: 2px;
+}
+#header .menu .ham span {
+  display: inline-block;
+  width: 16px;
+  height: 1px;
+  background: white;
+  border-radius: 4px;
+  margin-top: 13px;
+  position: absolute;
+  left: 7px;
+  top: 2px;
+}
+#header .menu .ham span::before {
+  content: "";
+  width: 16px;
+  height: 1px;
+  background: white;
+  border-radius: 4px;
+  position: absolute;
+  left: 0;
+  bottom: 4px;
+}
+#header .menu .ham span::after {
+  content: "";
+  width: 16px;
+  height: 1px;
+  background: white;
+  border-radius: 4px;
+  position: absolute;
+  left: 0;
+  top: 4px;
+}
+
+#header .name {
+  width: 60%;
+  text-align: center;
+}
+
+#header .name p {
+  color: white;
+  font-size: 1.5vw;
+  font-family: "CREALEN";
+}
+#nav {
+  z-index: 999999999999;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 88%;
+  width: 80%;
+  height: 6%;
+  left: 50%;
+  transform: translateX(-50%);
+
+  border: 1px solid none;
+  background-color: #061320;
+  border-radius: 100px;
+}
+#nav .go {
+  position: relative;
+  width: 100%;
+  display: flex;
+}
+#nav .go .home {
+  padding-left: 3%;
+  width: 30%;
+}
+#nav .go .about {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid white;
+}
+#nav .go .about a {
+  text-decoration: none;
+  color: white;
+  font-size: 0.9vw;
+  font-family: "CREALEN";
+}
+#nav .go .site {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid white;
+}
+#nav .go .site a {
+  text-decoration: none;
+  color: white;
+  font-size: 0.9vw;
+  font-family: "CREALEN";
+}
+#nav .go .script {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid white;
+}
+#nav .go .script a {
+  text-decoration: none;
+  color: white;
+  font-size: 0.9vw;
+  font-family: "CREALEN";
+}
+
+#nav .go .contact {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid white;
+}
+#nav .go .contact a {
+  text-decoration: none;
+  color: white;
+  font-size: 0.9vw;
+  font-family: "CREALEN";
+}
+
+#nav .right {
+  text-align: right;
+  width: 30%;
+  padding-right: 3%;
+}
+#main1 {
+  width: 100%;
+  height: 300vh;
+}
+#main1 .section1 {
+  background-image: url(../img/main1.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  position: sticky;
+  top: 0;
+}
+#main1 .section1 .content {
+  margin: auto auto 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#main1 .section1 .content .logo {
+  background-image: url(../img/logo.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  width: 9vw;
+  height: 9vw;
+}
+
+#main1 .section1 .content .txt {
+  text-align: center;
+  color: white;
+  margin-top: 15px;
+}
+#main1 .section1 .txt .txt1 {
+  font-weight: 500;
+  font-size: 3.2vw;
+  font-family: "ChavieraRegular-d9PwZ";
+  letter-spacing: 4px;
+}
+#main1 .section1 .txt .txt2 {
+  font-weight: 100;
+  font-size: 2.2vw;
+  font-family: "ChavieraRegular-d9PwZ";
+  letter-spacing: 2px;
+  margin-top: -20px;
+}
+
+#main1 .section2 {
+  position: relative;
+  width: 100%;
+  height: 200vh;
+  background-color: #113971;
+  display: block;
+}
+#main1 .section2 .content1 {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#main1 .section2 .content1 .wrap {
+  width: 90%;
+  height: 100vh;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  display: flex;
+}
+#main1 .section2 .content1 .wrap .left {
+  width: 50%;
+  height: 100vh;
+}
+#main1 .section2 .content1 .wrap .left .txt1 {
+  position: absolute;
+  font-family: "ChavieraRegular-d9PwZ";
+  letter-spacing: 2px;
+  line-height: 4.6vw;
+  font-size: 4vw;
+  color: white;
+  top: 16%;
+  left: 7%;
+}
+#main1 .section2 .content1 .wrap .left .txt2 {
+  font-size: 1.1vw;
+  letter-spacing: 0.1vw;
+  line-height: 1.3vw;
+  position: absolute;
+  color: white;
+  text-align: left;
+  top: 63%;
+  left: 7%;
+  font-family: "GowunDodum-Regular";
+}
+
+#main1 .section2 .content1 .wrap .right {
+  width: 50%;
+  height: 100vh;
+}
+#main1 .section2 .content1 .wrap .right .img1 {
+  position: absolute;
+  width: 30vw;
+  height: 25vw;
+  background-image: url(https://images.unsplash.com/photo-1518022525094-218670c9b745?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGNvbG9yZnVsJTIwc2VhfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1000&q=60);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  top: 17%;
+  left: 55%;
+}
+#main1 .section2 .content1 .wrap .right .img2 {
+  position: absolute;
+  width: 19vw;
+  height: 15vw;
+  background-image: url(../img/cat1.jpg);
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: cover;
+  top: 50%;
+  left: 50%;
+  /* transform: rotate(-15deg); */
+}
+#main1 .section2 .content1 .wrap .right .img3 {
+  position: absolute;
+  width: 22vw;
+  height: 25vw;
+  background-image: url(../img/garam2.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  top: 32%;
+  left: 70%;
+  /* transform: rotate(10deg); */
+}
+
+#main1 .section2 .content2 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#main1 .section2 .content2 .wrap {
+  position: relative;
+  width: 90%;
+  height: 100vh;
+  display: flex;
+}
+#main1 .section2 .content2 .wrap .left {
+  width: 50%;
+  height: 100vh;
+}
+#main1 .section2 .content2 .wrap .left .img1 {
+  position: absolute;
+  background-image: url(https://images.unsplash.com/photo-1498081959737-f3ba1af08103?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDN8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=60);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 18vw;
+  height: 25vw;
+  top: 24%;
+  left: 2%;
+
+  /* transform: rotate(-15deg); */
+}
+#main1 .section2 .content2 .wrap .left .img2 {
+  position: absolute;
+  background-image: url(../img/garam30.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 18vw;
+  height: 25vw;
+  top: 22%;
+  left: 17%;
+
+  /* transform: rotate(-5deg); */
+}
+#main1 .section2 .content2 .wrap .left .img3 {
+  position: absolute;
+  background-image: url(https://cdn.pixabay.com/photo/2013/01/27/18/41/flowers-76358__480.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  width: 12vw;
+  height: 15vw;
+  top: 44%;
+  left: 32%;
+
+  /* transform: rotate(5deg); */
+}
+#main1 .section2 .content2 .wrap .right {
+  width: 50%;
+  height: 90vh;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+}
+#main1 .section2 .content2 .wrap .right .txt1 {
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  text-align: right;
+  line-height: 4.6vw;
+  font-size: 3.8vw;
+  color: white;
+  font-family: "ChavieraRegular-d9PwZ";
+  letter-spacing: 1px;
+}
+#main1 .section2 .content2 .wrap .right .txt2 {
+  position: absolute;
+  font-size: 1.1vw;
+  letter-spacing: 0.1vw;
+  line-height: 1.4vw;
+  text-align: right;
+  font-family: "GowunDodum-Regular";
+  color: white;
+  top: 25%;
+  left: 69.5%;
+}
+#main2 {
+  width: 100%;
+  height: 200vh;
+}
+#main2 .img {
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  position: sticky;
+  background-image: url(../img/main2-img3.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+#main2 .section1 {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-color: #4d377b;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  /* background-color: #6667ab; */
+}
+#main2 .section1 .wrap1 {
+  position: relative;
+  width: 90%;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#main2 .section1 .wrap1 .row {
+  position: relative;
+  top: 3%;
+  width: 100%;
+  height: 70vh;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#main2 .section1 .wrap1 .row .left {
+  width: 50%;
+  height: 55vh;
+  border-right: 1px solid rgba(255, 255, 255, 0.5);
+  font-size: 4vw;
+  color: white;
+  font-family: "ChavieraRegular-d9PwZ";
+  letter-spacing: 1px;
+}
+#main2 .section1 .wrap1 .row .left .txt1 {
+  position: absolute;
+  top: 5%;
+  left: 0;
+}
+#main2 .section1 .wrap1 .row .left .txt2 {
+  position: absolute;
+  transform: rotate(90deg);
+  top: 30%;
+  left: 36%;
+}
+#main2 .section1 .wrap1 .row .left .txt3 {
+  position: absolute;
+  top: 80%;
+  left: 20%;
+}
+
+#main2 .section1 .wrap1 .row .right {
+  width: 50%;
+  height: 65vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#main2 .section1 .wrap1 .row .right .logo {
+  width: 11vw;
+  height: 11vw;
+  background-image: url(../img/logo.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+
+#main2 .section1 .wrap2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 90%;
+  height: 10vh;
+  font-size: 4vw;
+  color: white;
+  font-family: "CREALEN";
+  letter-spacing: 1px;
+  text-align: center;
+  padding-top: 2%;
+}
+/* #main3 {
+  position: relative;
+  width: 100%;
+  height: 230vh;
+  background-color: #4d377b;
+}
+#main .site-wrap {
+  position: relative;
+}
+
+#main .site {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+#main .site .site__item {
+  width: 100%;
+  height: 45vh;
+}
+#main .site .site__item:nth-child(1) {
+  background-color: red;
+}
+#main .site .site__item:nth-child(2) {
+  background-color: blue;
+}
+#main .site .site__item:nth-child(3) {
+  background-color: yellow;
+}
+#main .site .site__item:nth-child(4) {
+  background-color: green;
+} */
+
+#main3 {
+  position: relative;
+  width: 100%;
+  height: 230vh;
+  background-color: #4d377b;
+}
+#main3 .wrap {
+  padding-top: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+#main3 .wrap .site1 {
+  position: relative;
+  width: 90%;
+  height: 45vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#main3 .wrap .site1 .left {
+  width: 50%;
+  height: 45vh;
+  display: flex;
+  position: relative;
+  margin-top: 10%;
+}
+#main3 .wrap .site1 .left .txt1 {
+  position: absolute;
+  font-size: 4vw;
+  color: white;
+  font-family: "ChavieraRegular-d9PwZ";
+  letter-spacing: 1px;
+  transform: rotate(-100deg);
+  top: 50%;
+  left: -20%;
+}
+#main3 .wrap .site1 .left .img {
+  position: absolute;
+  width: 34vw;
+  height: 45vh;
+  background-image: url(https://c.wallhere.com/photos/ae/7c/Cartoon_Network_car-2084685.jpg!d);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  left: 10%;
+  transform: rotate(-10deg);
+}
+
+#main3 .wrap .site1 .right {
+  font-size: 1.3vw;
+  letter-spacing: 0.1vw;
+  line-height: 1.4vw;
+  font-family: "GowunDodum-Regular";
+  color: white;
+  width: 50%;
+  height: 45vh;
+}
+#main3 .wrap .site1 .right p {
+  margin-top: 20%;
+  margin-bottom: 5%;
+}
+#main3 .wrap .site1 .right a {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+#main3 .wrap .site2 {
+  position: relative;
+  width: 90%;
+  height: 45vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#main3 .wrap .site2 .left {
+  width: 50%;
+  height: 45vh;
+  font-size: 1.3vw;
+  letter-spacing: 0.1vw;
+  line-height: 1.4vw;
+  font-family: "GowunDodum-Regular";
+  color: white;
+  text-align: right;
+}
+#main3 .wrap .site2 .left .row {
+  position: absolute;
+  left: 12%;
+  top: 50%;
+}
+#main3 .wrap .site2 .left p {
+  margin-bottom: 5%;
+}
+#main3 .wrap .site2 .left a {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+#main3 .wrap .site2 .right {
+  position: relative;
+  width: 50%;
+  height: 45vh;
+  display: flex;
+  margin-top: 15%;
+  transform: rotate(10deg);
+}
+#main3 .wrap .site2 .right .txt1 {
+  position: absolute;
+  font-size: 4vw;
+  color: white;
+  font-family: "ChavieraRegular-d9PwZ";
+  letter-spacing: 1px;
+  transform: rotate(90deg);
+  top: 25%;
+  left: 70%;
+}
+#main3 .wrap .site2 .right .img {
+  position: absolute;
+  width: 34vw;
+  height: 45vh;
+  background-image: url(https://c.wallhere.com/photos/92/2c/Cartoon_Network_car-2084705.jpg!d);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  left: 10%;
+}
+#main3 .wrap .site3 {
+  position: relative;
+  width: 90%;
+  height: 45vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#main3 .wrap .site3 .left {
+  width: 50%;
+  height: 45vh;
+  display: flex;
+  margin-top: 22%;
+}
+#main3 .wrap .site3 .left .txt1 {
+  position: absolute;
+  font-size: 4vw;
+  color: white;
+  font-family: "ChavieraRegular-d9PwZ";
+  letter-spacing: 1px;
+  transform: rotate(-100deg);
+  top: 55%;
+  left: -2%;
+}
+#main3 .wrap .site3 .left .img {
+  position: absolute;
+  width: 34vw;
+  height: 45vh;
+  background-image: url(https://c.wallhere.com/photos/82/5a/digital_art_Liuying_JP_landscape-2071335.jpg!d);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  left: 5%;
+  transform: rotate(-10deg);
+}
+
+#main3 .wrap .site3 .right {
+  font-size: 1.3vw;
+  letter-spacing: 0.1vw;
+  line-height: 1.4vw;
+  font-family: "GowunDodum-Regular";
+  color: white;
+  width: 50%;
+  height: 45vh;
+}
+#main3 .wrap .site3 .right p {
+  margin-top: 40%;
+  margin-bottom: 5%;
+}
+#main3 .wrap .site3 .right a {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+#main3 .wrap .site4 {
+  position: relative;
+  width: 90%;
+  height: 45vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#main3 .wrap .site4 .left {
+  width: 50%;
+  height: 45vh;
+  font-size: 1.3vw;
+  letter-spacing: 0.1vw;
+  line-height: 1.4vw;
+  font-family: "GowunDodum-Regular";
+  color: white;
+  text-align: right;
+}
+#main3 .wrap .site4 .left .row {
+  position: absolute;
+  left: 9%;
+  top: 75%;
+}
+#main3 .wrap .site4 .left p {
+  margin-bottom: 5%;
+}
+#main3 .wrap .site4 .left a {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+#main3 .wrap .site4 .right {
+  position: relative;
+  width: 50%;
+  height: 45vh;
+  display: flex;
+  margin-top: 30%;
+  transform: rotate(10deg);
+}
+#main3 .wrap .site4 .right .txt1 {
+  position: absolute;
+  font-size: 4vw;
+  color: white;
+  font-family: "ChavieraRegular-d9PwZ";
+  letter-spacing: 1px;
+  transform: rotate(90deg);
+  top: 6%;
+  left: 77%;
+}
+#main3 .wrap .site4 .right .img {
+  position: absolute;
+  width: 34vw;
+  height: 45vh;
+  background-image: url(https://c.wallhere.com/photos/3a/2c/artwork_nature_landscape_winter_snow_bears_house-2064041.jpg!d);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  left: 8%;
+}
+
+#main4 {
+  width: 100%;
+  height: 200vh;
+}
+#main4 .img {
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  position: sticky;
+  background-image: url(../img/main4-5.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: cover;
+}
+#main4 .sl {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-color: #e9ecee;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#main4 .sl .txt {
+  position: relative;
+  width: 90%;
+  height: 15vh;
+}
+#main4 .sl .txt p {
+  position: absolute;
+  top: 40%;
+  left: 1%;
+  font-size: 4vw;
+  color: #f49596;
+  font-family: "ChavieraRegular-d9PwZ";
+  letter-spacing: 1px;
+}
+#main4 .sl .border {
+  position: relative;
+  width: 90%;
+  height: 70vh;
+  border-top: 1px solid #f49596;
+  border-bottom: 1px solid #f49596;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#main4 .sl .border .left {
+  position: relative;
+  width: 50%;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#main4 .sl .border .left .content {
+  width: 32vw;
+  height: 32vw;
+  display: flex;
+  background-image: url(../img/card.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+#main4 .sl .border .right {
+  position: relative;
+  width: 50%;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#main4 .sl .border .right .txt1 {
+  position: absolute;
+  font-size: 4vw;
+  color: #f49596;
+  font-family: "ChavieraRegular-d9PwZ";
+  letter-spacing: 1px;
+  margin-bottom: 10%;
+}
+#main4 .sl .border .right .txt2 {
+  position: absolute;
+  font-size: 1.1vw;
+  letter-spacing: 0.1vw;
+  line-height: 1.4vw;
+  text-align: center;
+  font-family: "GowunDodum-Regular";
+  color: #f49596;
+  margin-top: 10%;
+}
+
+#main4 .sl .row {
+  position: relative;
+  width: 90%;
+  height: 15vh;
+}
