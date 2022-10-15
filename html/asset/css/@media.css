@@ -1,3 +1,11 @@
+@media all and (max-width: 1660px) {
+  #main1 .section2 .content1 .wrap .right .img2 {
+    top: 45%;
+  }
+  #main1 .section2 .content1 .wrap .right .img3 {
+    top: 30%;
+  }
+}
 @media all and (max-width: 1500px) {
   #main1 .section1 .txt .txt2 {
     font-size: 2.2vw;
@@ -24,6 +32,14 @@
     margin-top: -18px;
   }
 }
+@media all and (max-width: 1400px) {
+  #main1 .section2 .content1 .wrap .right .img1 {
+    top: 20%;
+  }
+  #main1 .section2 .content2 .wrap .left .img3 {
+    top: 37%;
+  }
+}
 @media all and (max-width: 1200px) {
   #nav {
     height: 4vh;
@@ -43,6 +59,34 @@
     font-family: "ChavieraRegular-d9PwZ";
     letter-spacing: 2px;
     margin-top: -15px;
+  }
+  #main1 .section2 .content1 .wrap .right .img1 {
+    top: 15%;
+    left: 33%;
+    width: 35vw;
+    height: 28vw;
+  }
+  #main1 .section2 .content1 .wrap .right .img2 {
+    top: 35%;
+    left: 28%;
+    width: 21vw;
+    height: 17vw;
+  }
+  #main1 .section2 .content1 .wrap .right .img3 {
+    left: 48%;
+    top: 30%;
+    width: 24vw;
+    height: 27vw;
+  }
+  #main1 .section2 .content1 .wrap .left .txt1 {
+    top: 68%;
+    left: 32%;
+    text-align: center;
+  }
+  #main1 .section2 .content1 .wrap .left .txt2 {
+    top: 80%;
+    left: 37%;
+    text-align: center;
   }
 }
 @media all and (max-width: 1000px) {
@@ -78,6 +122,53 @@
     letter-spacing: 2px;
     margin-top: -10px;
   }
+  #main1 .section2 .content1 .wrap .left .txt1 {
+    letter-spacing: 2px;
+    line-height: 6.3vw;
+    font-size: 6vw;
+    left: 23%;
+  }
+  #main1 .section2 .content1 .wrap .left .txt2 {
+    font-size: 1.5vw;
+    letter-spacing: 0.1vw;
+    line-height: 1.8vw;
+    left: 32%;
+  }
+  #main1 .section2 .content2 .wrap .right {
+    border-left: none;
+  }
+  #main1 .section2 .content2 .wrap .left .img1 {
+    width: 23vw;
+    height: 30vw;
+    top: 22%;
+    left: 20%;
+  }
+  #main1 .section2 .content2 .wrap .left .img2 {
+    width: 24vw;
+    height: 29vw;
+    top: 22%;
+    left: 40%;
+  }
+  #main1 .section2 .content2 .wrap .left .img3 {
+    width: 16vw;
+    height: 18vw;
+    top: 36%;
+    left: 57%;
+  }
+  #main1 .section2 .content2 .wrap .right .txt1 {
+    top: 60%;
+    left: 30%;
+    text-align: center;
+    line-height: 5vw;
+    font-size: 4.2vw;
+  }
+  #main1 .section2 .content2 .wrap .right .txt2 {
+    font-size: 1.5vw;
+    line-height: 2.1vw;
+    top: 76%;
+    left: 32%;
+    text-align: center;
+  }
 }
 @media all and (max-width: 850px) {
   #main1 .section1 .txt .txt2 {
@@ -104,6 +195,52 @@
     letter-spacing: 2px;
     margin-top: -10px;
   }
+  #main1 .section2 .content1 .wrap .right .img1 {
+    top: 15%;
+    left: 33%;
+    width: 35vw;
+    height: 28vw;
+  }
+  #main1 .section2 .content1 .wrap .right .img2 {
+    top: 32%;
+    left: 28%;
+    width: 21vw;
+    height: 17vw;
+  }
+  #main1 .section2 .content1 .wrap .right .img3 {
+    left: 48%;
+    top: 28%;
+    width: 24vw;
+    height: 27vw;
+  }
+  #main1 .section2 .content1 .wrap .left .txt1 {
+    top: 60%;
+    left: 25%;
+  }
+  #main1 .section2 .content1 .wrap .left .txt2 {
+    top: 72%;
+    left: 33%;
+  }
+}
+@media all and (max-width: 800px) {
+  #main1 .section2 .content2 .wrap .left .img1 {
+    width: 25vw;
+    height: 32vw;
+    top: 13%;
+    left: 20%;
+  }
+  #main1 .section2 .content2 .wrap .left .img2 {
+    width: 26vw;
+    height: 31vw;
+    top: 13%;
+    left: 40%;
+  }
+  #main1 .section2 .content2 .wrap .left .img3 {
+    width: 18vw;
+    height: 20vw;
+    top: 26%;
+    left: 57%;
+  }
 }
 @media all and (max-width: 600px) {
   #nav {
@@ -124,12 +261,72 @@
     letter-spacing: 2px;
     margin-top: -10px;
   }
+  #main1 .section2 .content1 .wrap .left .txt1 {
+    top: 60%;
+    left: 8%;
+    letter-spacing: 2px;
+    line-height: 9.5vw;
+    font-size: 9vw;
+  }
+  #main1 .section2 .content1 .wrap .left .txt2 {
+    font-size: 2vw;
+    letter-spacing: 0.1vw;
+    line-height: 2.3vw;
+    top: 75%;
+    left: 28%;
+  }
+  #main1 .section2 .content2 .wrap .right .txt1 {
+    top: 60%;
+    left: 25%;
+    text-align: center;
+    line-height: 5.6vw;
+    font-size: 5vw;
+  }
+  #main1 .section2 .content2 .wrap .right .txt2 {
+    font-size: 3.2vw;
+    line-height: 3.8vw;
+    top: 73%;
+    left: 12%;
+    text-align: center;
+  }
 }
 @media all and (max-width: 380px) {
+  #main1 .section2 .content1 .wrap .right .img1 {
+    top: 15%;
+    left: 33%;
+    width: 35vw;
+    height: 28vw;
+  }
+  #main1 .section2 .content1 .wrap .right .img2 {
+    top: 28%;
+    left: 28%;
+    width: 21vw;
+    height: 17vw;
+  }
+  #main1 .section2 .content1 .wrap .right .img3 {
+    left: 48%;
+    top: 25%;
+    width: 24vw;
+    height: 27vw;
+  }
   #main1 .section1 .txt .txt2 {
     font-size: 2.2vw;
     font-family: "ChavieraRegular-d9PwZ";
     letter-spacing: 2px;
     margin-top: -7px;
+  }
+  #main1 .section2 .content1 .wrap .left .txt1 {
+    top: 58%;
+    left: 8%;
+    letter-spacing: 2px;
+    line-height: 9.5vw;
+    font-size: 9vw;
+  }
+  #main1 .section2 .content1 .wrap .left .txt2 {
+    font-size: 2vw;
+    letter-spacing: 0.1vw;
+    line-height: 3vw;
+    top: 70%;
+    left: 20%;
   }
 }
