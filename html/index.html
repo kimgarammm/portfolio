@@ -8,6 +8,13 @@
     <link rel="stylesheet" href="asset/css/reset.css" />
     <link rel="stylesheet" href="asset/css/style.css" />
     <link rel="stylesheet" href="asset/css/font.css" />
+    <link rel="stylesheet" href="asset/css/@media.css">
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/swiper/swiper-bundle.min.css"
+  />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
   </head>
   <body>
     <header id="header">
@@ -167,12 +174,11 @@
     <!--//main1-->
     <section id="main2">
       <div class="img"
-      data-2100=" filter: grayscale(1) brightness(0.5)"
-      data-2500="filter: grayscale(0) brightness(1)"
-      data-4000="filter: grayscale(0) brightness(1)"
-      data-4380=" filter: grayscale(1) brightness(0.5)"></div>
+      data-2500="filter: blur(0)"
+      data-4000="filter: blur(5px)"
+      ></div>
       <div class="section1">
-        <div class="wrap1">
+        <div class="wrap">
           <div class="row">
           <div class="left">
             <div class="txt1"><p>Responsible</p></div>
@@ -184,57 +190,17 @@
           </div>
         </div>
         </div>
-        <div class="wrap2">
+        <!-- <div class="wrap">
           <div class="txt1">Site Reference</div>
           
-        </div>
+        </div> -->
       </div>
     </section>
     <!--//main2-->
- <!-- <section id="main3">
-  <div class="site-wrap">
-    <div class="site">
-       <a href="#" class="site__item">
-        <h3 class="site__item-title">Webstandard</h3>
-        <div class="site__item-img"></div>
-        <div class="site__item-ex">
-          <p>웹 접근성과 웹 표준을 준수하여 만든 사이트 입니다.<br>다양한 기능들을 웹 표준에 맞게 제작하였습니다.</p>
-          <a href="#" >View Site</a>
-          <a href="#">View Code</a>
-        </div>
-       </a>
-       <a href="#" class="site__item">
-        <h3 class="site__item-title">Responsive</h3>
-        <div class="site__item-img"></div>
-        <div class="site__item-ex">
-          <p>미디어 쿼리를 사용하여 디바이스 환경에 맞춰 <br>모든 기기에 유연하게 대응하는 반응형 사이트 입니다.</p>
-          <a href="#" >View Site</a>
-          <a href="#">View Code</a>
-        </div>
-       </a>
-       <a href="#" class="site__item">
-        <h3 class="site__item-title">PHP</h3>
-        <div class="site__item-img"></div>
-        <div class="site__item-ex">
-          <p>SQL 연동으로 Data Base에 회원 정보와 <br>게시물 저장하여 관리가 용이한 php 사이트입니다.</p>
-          <a href="#" >View Site</a>
-          <a href="#">View Code</a>
-        </div>
-       </a>
-       <a href="#" class="site__item">
-        <h3 class="site__item-title">React</h3>
-        <div class="site__item-img"></div>
-        <div class="site__item-ex">
-          <p>컴퍼넌트를 생성해서 각각의 페이지를 구현하였고 <br>Youtube, Movie, unsplash API로 데이터를 가져왔습니다.<br>React 라이브러리로 작업한 사이트입니다.</p>
-          <a href="#" >View Site</a>
-          <a href="#">View Code</a>
-        </div>
-       </a>
-    </div>
-  </div>
- </section> -->
+
     <section id="main3">
       <div class="wrap">
+        <div class="title"><p>Site Reference</p></div>
         <div class="site1">
           <div class="left">
             <div class="txt1"><p>Webstandard</p></div>
@@ -242,16 +208,16 @@
           </div>
           <div class="right">
             <p>웹 접근성과 웹 표준을 준수하여 만든 사이트 입니다.<br>다양한 기능들을 웹 표준에 맞게 제작하였습니다.</p>
-            <a href="#">View Site</a>
-            <a href="#">View Code</a>
+            <a href="#">Site</a>
+            <a href="#">Code</a>
           </div>
         </div>
         <div class="site2">
           <div class="left">
             <div class="row">
             <p>미디어 쿼리를 사용하여 디바이스 환경에 맞춰 <br>모든 기기에 유연하게 대응하는 반응형 사이트 입니다.</p>
-            <a href="#">View Site</a>
-            <a href="#">View Code</a></div>
+            <a href="#">Site</a>
+            <a href="#">Code</a></div>
           </div>
           <div class="right">
            <div class="txt1"><p>Responsive</p></div>
@@ -265,16 +231,16 @@
           </div>
           <div class="right">
             <p>SQL 연동으로 Data Base에 회원 정보와 <br>게시물 저장하여 관리가 용이한 php 사이트입니다.</p>
-            <a href="#">View Site</a>
-            <a href="#">View Code</a>
+            <a href="#">Site</a>
+            <a href="#">Code</a>
           </div>
         </div>
         <div class="site4">
           <div class="left">
             <div class="row">
             <p>컴퍼넌트를 생성해서 각각의 페이지를 구현하였고 <br>Youtube, Movie, unsplash API로 데이터를 가져왔습니다.<br>React 라이브러리로 작업한 사이트입니다.</p>
-            <a href="#">View Site</a>
-            <a href="#">View Code</a>
+            <a href="#">Site</a>
+            <a href="#">Code</a>
           </div>
           </div>
           <div class="right">
@@ -288,29 +254,103 @@
     <!--//main3-->
     <section id="main4">
       <div class="img"
-     ></div>
+     
+      data-8700=" filter: blur(0px)"
+      data-9700=" filter: blur(5px)"></div>
       <div class="sl">
-        <div class="txt"><p>Script</p></div>
-        <div class="border">
-            <div class="left">
-              <div class="content"></div>
-            </div>
-            <div class="right">
-              <div class="txt1">Card Game</div>
-              <div class="txt2"> 자바 스크립트를 이용하여 만든 카드 맞추기 게임입니다. <br>
-                                 클릭 했을 때 같은 그림이 나오면 카드가 정지해 있고 <br>
-                                 다른 그림이 나오면 카드가 다시 뒤집어 지는 게임입니다.
-              </div>
-            </div>
+       <div class="row1"></div>
+       <div class="content">
+        <div class="left">
+          <div class="txt1"><p>Java Script </p></div>
+          <div class="logo"></div>
+          
         </div>
-        <div class="row"></div>
+        <div class="right"><div class="txt2"><p> Card Game <br> Typing Game <br> Music Player <br> Drawing Game </p></div></div>
         
-      </div>
-      
+       </div>
+       <div class="row2"></div>
     </section>
     <!--//main4-->
-   
-
+   <section id="main5">
+  
+    <div class="grid-wrap">
+      <div class="grid">
+        <a href="#" class="grid__item">
+          <div class="grid__item-bg"></div>
+          <div class="grid__item-wrap">
+            <img class="grid__item-img" src="../html/asset/img/card.png" alt="Card game" />
+          </div>
+          <h3 class="grid__item-title">Card game</h3>
+          <h4 class="grid__item-number">Script</h4>
+        </a>
+        <a href="#" class="grid__item">
+          <div class="grid__item-bg"></div>
+          <div class="grid__item-wrap">
+            <img class="grid__item-img" src="../html/asset/img/music.png" alt="Typing Game" />
+          </div>
+          <h3 class="grid__item-title">Typing Game</h3>
+          <h4 class="grid__item-number">Script</h4>
+        </a>
+        <a href="#" class="grid__item">
+          <div class="grid__item-bg"></div>
+          <div class="grid__item-wrap">
+            <img class="grid__item-img" src="../html/asset/img/music.png" alt="Music Player" />
+          </div>
+          <h3 class="grid__item-title"> Music Player</h3>
+          <h4 class="grid__item-number">Script</h4>
+        </a>
+        <a href="#" class="grid__item">
+          <div class="grid__item-bg"></div>
+          <div class="grid__item-wrap">
+            <img class="grid__item-img" src="../html/asset/img/drawing.png" alt="Drawing Gam" />
+          </div>
+          <h3 class="grid__item-title"> Drawing Game</h3>
+          <h4 class="grid__item-number">Script</h4>
+        </a>
+        </div>
+        </div>
+        
+        
+        <div class="content">
+          <div class="content__item">
+            <div class="content__item-intro">
+              <img class="content__item-img" src="../html/asset/img/card.png" alt="Card game" />
+              <h2 class="content__item-title">Card game</h2>
+            </div>
+            <div class="content__item-text">
+              <p>자바 스크립트를 이용하여 만든 카드 맞추기 게임입니다. 클릭 했을 때 같은 그림이 나오면 카드가 정지해 있고 다른 그림이 나오면 카드가 다시 뒤집어 지는 게임입니다.</p>
+            </div>
+          </div>
+          <div class="content__item">
+            <div class="content__item-intro">
+              <img class="content__item-img" src="../html/asset/img/typinh.png" alt="Typing Game" />
+              <h2 class="content__item-title">Typing Game</h2>
+            </div>
+            <div class="content__item-text">
+              <p>자바 스크립트를 이용하여 만든 타이핑 게임입니다.  빨간 글씨로 표시하였고 맞은 글씨는 초록색으로 표시하였습니다. 남은 시간, 틀린 개수, 타이핑 속도를 표시하였습니다.</p>
+            </div>
+          </div>
+          <div class="content__item">
+            <div class="content__item-intro">
+              <img class="content__item-img" src="../html/asset/img/music.png" alt="Music Player" />
+              <h2 class="content__item-title">Music Player</h2>
+            </div>
+            <div class="content__item-text">
+              <p>자바 스크립트를 이용하여 만든 뮤직 플레이어입니다. 원하는 지점으로 이동이 가능하며 6개의 곡 목록이 있고 이전 곡, 다음 곡 버튼 플레이 버튼을 구현하였습니다. </p>
+            </div>
+          </div>
+          <div class="content__item">
+            <div class="content__item-intro">
+              <img class="content__item-img" src="../html/asset/img/drawing.png" alt="Drawing Game" />
+              <h2 class="content__item-title">Drawing Game</h2>
+            </div>
+            <div class="content__item-text">
+              <p>자바 스크립트를 이용하여 만든 드로잉 게임입니다. 5 색상의 브러쉬와 지우개를 이용하여 보드에 그림을 그릴 수 있고  도형 툴을 선택하여 원, 사각형, 삼각형을 그릴 수 있습니다. </p>
+            </div>
+          </div>
+        </div>
+   </section>
+    <!--//main5-->
     <footer></footer>
     <!--//footer-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js"></script>
@@ -328,6 +368,23 @@
       }
       scroll();
     </script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+   var swiper = new Swiper(".bgSwiper", {
+        spaceBetween: 30,
+        effect: "fade",
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
+  
+   
   
   </body>
 </html>

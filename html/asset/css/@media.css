@@ -1,0 +1,135 @@
+@media all and (max-width: 1500px) {
+  #main1 .section1 .txt .txt2 {
+    font-size: 2.2vw;
+    font-family: "ChavieraRegular-d9PwZ";
+    letter-spacing: 2px;
+    margin-top: -10px;
+  }
+  #nav {
+    height: 5vh;
+  }
+  #main1 .section1 .content .logo {
+    width: 14vw;
+    height: 14vw;
+  }
+  #main1 .section1 .txt .txt1 {
+    font-size: 3.5vw;
+    font-family: "ChavieraRegular-d9PwZ";
+    letter-spacing: 4px;
+  }
+  #main1 .section1 .txt .txt2 {
+    font-size: 2.5vw;
+    font-family: "ChavieraRegular-d9PwZ";
+    letter-spacing: 2px;
+    margin-top: -18px;
+  }
+}
+@media all and (max-width: 1200px) {
+  #nav {
+    height: 4vh;
+  }
+
+  #main1 .section1 .content .logo {
+    width: 20vw;
+    height: 20vw;
+  }
+  #main1 .section1 .txt .txt1 {
+    font-size: 4vw;
+    font-family: "ChavieraRegular-d9PwZ";
+    letter-spacing: 4px;
+  }
+  #main1 .section1 .txt .txt2 {
+    font-size: 3vw;
+    font-family: "ChavieraRegular-d9PwZ";
+    letter-spacing: 2px;
+    margin-top: -15px;
+  }
+}
+@media all and (max-width: 1000px) {
+  #header .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6%;
+    height: 6%;
+    text-align: right;
+    padding-right: 10px;
+  }
+  #header .menu p {
+    font-size: 0vw;
+    font-weight: 500;
+    padding-right: 0;
+  }
+  #header .menu .border {
+    border: none;
+  }
+  #main1 .section1 .content .logo {
+    width: 21vw;
+    height: 21vw;
+  }
+  #main1 .section1 .txt .txt1 {
+    font-size: 4vw;
+    font-family: "ChavieraRegular-d9PwZ";
+    letter-spacing: 4px;
+  }
+  #main1 .section1 .txt .txt2 {
+    font-size: 3vw;
+    font-family: "ChavieraRegular-d9PwZ";
+    letter-spacing: 2px;
+    margin-top: -10px;
+  }
+}
+@media all and (max-width: 850px) {
+  #main1 .section1 .txt .txt2 {
+    font-size: 2.2vw;
+    font-family: "ChavieraRegular-d9PwZ";
+    letter-spacing: 2px;
+    margin-top: -7px;
+  }
+  #nav {
+    height: 3vh;
+  }
+  #main1 .section1 .content .logo {
+    width: 20vw;
+    height: 20vw;
+  }
+  #main1 .section1 .txt .txt1 {
+    font-size: 4.2vw;
+    font-family: "ChavieraRegular-d9PwZ";
+    letter-spacing: 4px;
+  }
+  #main1 .section1 .txt .txt2 {
+    font-size: 3.2vw;
+    font-family: "ChavieraRegular-d9PwZ";
+    letter-spacing: 2px;
+    margin-top: -10px;
+  }
+}
+@media all and (max-width: 600px) {
+  #nav {
+    display: none;
+  }
+  #main1 .section1 .content .logo {
+    width: 35vw;
+    height: 35vw;
+  }
+  #main1 .section1 .txt .txt1 {
+    font-size: 5.5vw;
+    font-family: "ChavieraRegular-d9PwZ";
+    letter-spacing: 4px;
+  }
+  #main1 .section1 .txt .txt2 {
+    font-size: 4.5vw;
+    font-family: "ChavieraRegular-d9PwZ";
+    letter-spacing: 2px;
+    margin-top: -10px;
+  }
+}
+@media all and (max-width: 380px) {
+  #main1 .section1 .txt .txt2 {
+    font-size: 2.2vw;
+    font-family: "ChavieraRegular-d9PwZ";
+    letter-spacing: 2px;
+    margin-top: -7px;
+  }
+}
